@@ -68,10 +68,19 @@ header{
 	width: 150px;
 	height: 150px;
 	float: left;
+	font-size: 60px;
+	line-height: 150px;
+	font-family: "Helvetica";
+	text-align: center;
+	vertical-align: middle;
 }
 #c0r0, #c1r0, #c0r1, #c1r1, #c0r2, #c1r2{
 	border-right: 3px solid rgb(150,150,150);
 }
 #c0r0, #c1r0, #c2r0, #c0r1, #c1r1, #c2r1{
 	border-bottom: 3px solid rgb(150,150,150);
+}
+
+.fadeText{
+	color: rgb(180,180,180);
 }
